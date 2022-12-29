@@ -1,0 +1,187 @@
+#root {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+html {
+  background-color: #f2f2f3;
+}
+
+.button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#title {
+  font-size: 7vw;
+}
+
+.userImage {
+  border-radius: 50%;
+  width: 5%;
+  height: auto;
+}
+
+.connectButton {
+  width: 35%;
+}
+
+.infoBox {
+  background: rgba(241, 244, 241, 0.742); /*  10% opaque green */
+  width: 60%;
+  height: 55%;
+  padding: 20px;
+  border: 5px white solid;
+}
+
+.infoText {
+  font-size: 16px;
+  font-size: 1.5vw;
+}
+
+.greetingAlert {
+  max-width: 40vw;
+}
+
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: 15px;
+  }
+  .userImage {
+    width: 15%;
+  }
+  .connectButton {
+    width: 80%;
+  }
+  .headerTop {
+    font-size: 1rem !important;
+  }
+
+  .logo {
+    width: 1.4rem !important;
+  }
+  .logoutBtn {
+    width: 1.7rem !important;
+  }
+  .infoBtn {
+    width: 1.1rem;
+  }
+  #title {
+    visibility: hidden;
+    height: 0;
+  }
+  .titleText {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  .success-alert {
+    width: 75% !important;
+    height: 75% !important;
+  }
+  .infoBox {
+    height: 45%;
+    width: 70%;
+    max-height: 17rem;
+  }
+  .infoText {
+    font-size: 2.5vw;
+  }
+  .greetingAlert {
+    max-width: 80vw;
+  }
+  .searchForm {
+    margin-top: 30px;
+  }
+}
+
+.invalid {
+  border: 1px solid red;
+  background-color: rgb(240, 115, 115)
+}
+
+.playlistButtonSection {
+  background-color: #f2f2f3;
+  border-top: 2px solid rgb(208, 208, 208);
+}
+
+.playlistButton {
+  background: #0a6312 !important
+ ;
+}
+
+.playlistButton:active {
+  background-color: white !important;
+}
+
+.formBtns:hover {
+  transform: scale(1.1);
+}
+
+.search {
+  background: rgb(14, 136, 25);
+  background: linear-gradient(
+    0deg,
+    rgba(14, 136, 25, 0.5184991232821253) 0%,
+    rgba(33, 37, 41, 1) 92%
+  );
+}
+
+.loginText {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.loginButton {
+  background-color: #67b02e;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  opacity: 80%;
+  padding: 10px;
+
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.dropdown {
+  color: #0a6312 !important;
+}
+
+.inputForm {
+  padding: 6.5px;
+  border: none;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.06);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 64px;
+}
+
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
