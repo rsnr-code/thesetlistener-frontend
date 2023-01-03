@@ -45,7 +45,7 @@ const Main = () => {
 
     const options = {
       method: "GET",
-      url: "https://setlistener-api.onrender.com",
+      url: "https://setlistener-api.onrender.com/setlist",
       params: { artistName: searchKey },
     };
 
